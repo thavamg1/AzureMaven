@@ -1,9 +1,10 @@
-com\crm\qa\pages\FlightResultPage.class
-com\crm\qa\pages\HomePage.class
-com\crm\qa\pages\SearchHotelPage.class
-com\crm\qa\utilities\WebDriverListener.class
 com\crm\qa\base\TestBase.class
-com\crm\qa\pages\SearchFlightsPage.class
+com\crm\qa\utilities\AnnotationTransformer.class
+com\crm\qa\utilities\LoggerClass.class
+com\crm\qa\utilities\TestListner.class
+com\crm\qa\utilities\RetryAnalyzer.class
 com\crm\qa\reports\ExtentReporterNG.class
+com\crm\qa\testdata\ExcelDataProvider.class
 com\crm\qa\utilities\TestUtils.class
 com\crm\qa\utilities\SeleniumActions.class
+com\crm\qa\utilities\WebDriverListener.class

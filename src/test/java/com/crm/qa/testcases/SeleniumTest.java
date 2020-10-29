@@ -10,13 +10,15 @@ import org.testng.annotations.Test;
 
 import com.crm.qa.base.TestBase;
 import com.crm.qa.utilities.TestUtils;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 public class SeleniumTest {
 	WebDriver driver;
 	@BeforeSuite(alwaysRun = true)
 	public void setUp() {
-	System.setProperty("webdriver.chrome.driver", TestUtils.WORKSAPCE_PATH + "//drivers//chromedriver.exe");
+	WebDriverManager.chromedriver().setup();
+	//System.setProperty("webdriver.chrome.driver", TestUtils.WORKSAPCE_PATH + "//drivers//chromedriver.exe");
 	driver=new ChromeDriver();
 	driver.manage().window().maximize();
 	}
